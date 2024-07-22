@@ -1,4 +1,22 @@
 {
+  "CohereForAI/aya-23-8B": {
+    "model_name": "CohereForAI/aya-23-8B",
+    "stop_tokens": [
+      "<EOS_TOKEN>",
+      "<EOP_TOKEN>",
+      "<|START_OF_TURN_TOKEN|>",
+      "<|END_OF_TURN_TOKEN|>"
+    ],
+    "stop_token_ids": [
+      6,
+      7,
+      255000,
+      255001
+    ],
+    "stop_tokens_assistant": [
+      "<|CHATBOT_TOKEN|>"
+    ],
+    "pre_query_template": "<BOS_TOKEN><|START_OF_TURN_TOKEN|><|USER_TOKEN|>사용자<|END_OF_TURN_TOKEN|>"},
   "meta-llama/Meta-Llama-3-8B-Instruct": {
     "model_name": "meta-llama/Meta-Llama-3-8B-Instruct",
     "stop_tokens": [
