@@ -16,7 +16,7 @@
     "stop_tokens_assistant": [
       "<|CHATBOT_TOKEN|>"
     ],
-    "pre_query_template": "<BOS_TOKEN><|START_OF_TURN_TOKEN|><|USER_TOKEN|>사용자<|END_OF_TURN_TOKEN|>"},
+    "pre_query_template": "<BOS_TOKEN><|START_OF_TURN_TOKEN|><|USER_TOKEN|><|END_OF_TURN_TOKEN|>"},
   "meta-llama/Meta-Llama-3-8B-Instruct": {
     "model_name": "meta-llama/Meta-Llama-3-8B-Instruct",
     "stop_tokens": [
